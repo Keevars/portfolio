@@ -1,0 +1,178 @@
+/*THE FOLLOWING STYLESHEET IS WORKING ON THE SKELETAL LAYOUT OF THE WEB PAGES/SECTIONS*/
+
+.navBar
+{
+  /* This section has main sections*/
+  /*1. Personal Brand Logo
+    2. Socials sections
+    3. Navigation Links*/
+
+    max-height: 150px;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+    background-color: black;
+}
+
+  .navBar div
+  {
+    position: absolute;
+    top: 10px;
+  }
+
+  .navBar a
+  {
+    color: black;
+  }
+  .nav_links
+{
+min-width: 650px;
+position: absolute;
+top: 0;
+left: 650px;
+}
+.nav_links a
+{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  text-align: right;
+}
+.nav_links a:hover
+{
+  background-color: rgba(255, 255, 255, 0.714);
+  color: black;
+  border-radius: 15px;
+}
+.nav_links a:active
+{
+  background-color: rgba(255, 255, 255, 0.714);
+  color: black;
+  border-radius: 15px;
+}
+
+.hr_line
+{
+  position: fixed;
+  display: block;
+  width: 100%;
+  color: white;
+  margin-top: 25px;
+}
+.socials
+{
+  position: fixed;
+  top:2px;
+  left:180px;
+  background-color: rgba(255, 255, 255, 0.825);
+  width: 450px;
+  border-radius: 15px;
+  list-style-type: none;
+  padding: 1px;
+}
+.socials a
+{
+  display: inline-block;
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0;
+}
+  .socials_text
+{
+  display: block;
+  width: 100%;
+  color: black;
+  padding: 0;
+  text-align: center;
+  font-size: small;
+}
+.Blog
+        {
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            width: 50px;
+            height: 10px;
+            padding: 2px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 2px 2px 2px 2px white;
+            text-align: center;
+          }
+
+
+.homePage
+{
+  /*This section has 2 main box elements*/
+    /*1.HomeImg 
+      2.HomeText with 3 inline subsections*/
+
+  max-height: 800px;
+  position: absolute;
+  top: 160px;
+}
+.display_picture
+{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 10px;
+}
+.professionalProfile
+{
+  /*This section has two main box elements*/
+
+  /*1. Intro to my profile
+    2. Four core values behind my professional profile*/
+
+    max-height: 900px;
+    position: absolute;
+    top: 1000px;
+}
+.employmentHistory
+{
+  /*This page one main box section with 4 inline subsections within*/
+  /*1. EDGENE, CHOPPIES, KM CONSULTANTS, SBPSA*/
+  max-height: 800px;
+  position: absolute;
+  top:2000px;
+}
+.educationPage
+{
+  /*This page one main box section with 4 subsections within*/
+  /*1. WSU, WITS, CapaCiti, Short Courses*/
+  max-height: 800px;
+  position: absolute;
+  top:2900px;
+}
+
+.educationPage
+{
+  /*This page one main box section with 4 subsections within*/
+  /*1. WSU, WITS, CapaCiti, Short Courses*/
+  max-height: 1300px;
+  position: absolute;
+  top:3800px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*HTML and Body styling*/
+body
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 25px;
+}
+.behindBody
+{
+  z-index: 0;
+  background-color: white;
+}
